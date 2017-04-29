@@ -65,6 +65,11 @@ var loadCustomScene = function (demoConstructor, then) {
 
             var spector = new SPECTOR.Spector();
             spector.displayUI();
+            spector.onCapture.add(function () {
+                var help = document.querySelector(".helpText");
+                help.style.visibility = "hidden";
+                help.style.display = "none";
+            });
         });
     }, 15);
 
