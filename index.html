@@ -1,0 +1,190 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SpectorJS - Explore and Troubleshoot your WebGL scenes with ease</title>
+    <meta name="description" content="Explore and Troubleshoot your WebGL scenes with ease">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <link rel="author" href="humans.txt" />
+    <meta name="msapplication-TileColor" content="#555555">
+    <meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- FB -->
+    <meta property="og:title" content="Spector.js demos & documentation" />
+    <meta property="og:site_name" content="Spector.js" />
+    <meta property="og:url"
+          content="http://spector.babylonjs.com" />
+    <meta property="og:description"
+          content="SpectorJS is an Open source toolking helping to Explore and Troubleshoot your WebGL scenes with ease." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://spector.babylonjs.com/assets/spectorjs-512.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@SpectorSeb" />
+    <meta name="twitter:creator" content="@SpectorSeb" />
+    <meta name="twitter:url" content="http://spector.babylonjs.com" />
+    <meta name="twitter:title" content="Babylon.js demos & documentation" />
+    <meta name="twitter:description" content="SpectorJS is an Open source toolking helping to Explore and Troubleshoot your WebGL scenes with ease." />
+    <meta name="twitter:image" content="http://spector.babylonjs.com/assets/spectorjs-512.png" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700">
+    <link rel="stylesheet" href="scss/main.css">
+    <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+</head>
+<body>
+    <header class="page-title">
+        <div class="wrapper">
+            <div class="banner">
+                <div class="banner-item">
+                    <h1><img src="img/layout/logo-spectorjs.svg" alt="BabylonJS"></h1>
+                </div>
+                <div class="banner-item"></div>
+                <div class="banner-item">
+                    <h2><i>WebGL.</i> <i>Simple.</i> <i>Powerful.</i></h2>
+                    <p>A complete engine agnostic JavaScript framework for exploring and troubleshooting your WebGL scenes with ease</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="download-bar">
+        <div class="wrapper">
+            <a class="button-red" href="#maindemossection" title="Try SpectorJS">Try</a>
+            <a class="button-green" href="https://raw.githubusercontent.com/BabylonJS/Spector.js/master/dist/spector.bundle.js" title="Download">Download</a>
+            <a class="button-blue" href="https://github.com/BabylonJS/Spector.js" title="GitHub">GitHub</a>
+        </div>
+    </div>
+
+    <nav class="navigation">
+        <div class="wrapper">
+            <a href="#specifications">Specifications</a>
+            <a href="https://github.com/BabylonJS/Spector.js">GitHub</a>
+            <a href="https://github.com/BabylonJS/Spector.js">Documentation</a>
+            <a href="http://www.babylonjs.com">Babylon JS</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="maindemossection">
+            <div class="wrapper">
+                <h2>Demos (push the red button to record a frame)</h2>
+                <div class="gallery">
+                    <article class="gallery-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                        <a title="INSTANCED BONES" class="gallery-item-link" href="./Demos/InstancedBones/" target="blank" itemprop="url">
+                            <img class="gallery-item-img" alt="WebGL scene for INSTANCED BONES" src="http://cdn.babylonjs.com/wwwbabylonjs/Screenshots/bones2.jpg"
+                                 itemprop="image">
+                            <div class="gallery-item-infos">
+                                <h3 class="gallery-item-title" itemprop="name">BONES</h3>
+                                <div class="gallery-item-others">
+                                    <div class="gallery-item-size">10 MB</div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="gallery-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                        <a title="PBR" class="gallery-item-link" href="./Demos/PBR/" target="blank"
+                           itemprop="url">
+                            <img class="gallery-item-img" alt="WebGL scene for PBR demo" src="http://cdn.babylonjs.com/wwwbabylonjs/Screenshots/pbr.jpg"
+                                 itemprop="image">
+                            <div class="gallery-item-infos">
+                                <h3 class="gallery-item-title" itemprop="name">PBR</h3>
+                                <div class="gallery-item-others">
+                                    <div class="gallery-item-size">15 MB</div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="gallery-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                        <a title="Sponza Dynamic Shadows" class="gallery-item-link" href="./demos/SponzaDynamicShadows/" target="blank"
+                           itemprop="url">
+                            <img class="gallery-item-img" alt="WebGL scene for Sponza Dynamic Shadows demo" src="http://cdn.babylonjs.com/wwwbabylonjs/Screenshots/SponzaDS.jpg"
+                                 itemprop="image">
+                            <div class="gallery-item-infos">
+                                <h3 class="gallery-item-title" itemprop="name">SHADOWS</h3>
+                                <div class="gallery-item-others">
+                                    <div class="gallery-item-size">30 MB</div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <hr class="margin">
+
+        <section class="about" id="specifications">
+            <div class="wrapper">
+                <h2>Specifications <a class="upper-link" href="#specifications">⇪</a></h2>
+                <div class="columnize">
+                    <ul>
+                        <li>Capture and introspect Webgl frames</li>
+                        <li>Shader Visualizer</li>
+                        <li>Full context information</li>
+                        <li>Heuristic based analytics</li>
+                        <li>Visual State</li>
+                        <li>Browser extension</li>
+                        <li>Easy to embed</li>
+                        <li>Stack trace</li>
+                        <li>Export import captures</li>
+                        <li>Web VR</li>
+                        <li>Works on <strong>all WebGL platforms</strong> and <strong>Engines</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr class="margin">
+    <footer>
+        <div class="wrapper">
+            <p>
+                Lead developers: <a href="https://twitter.com/spectorseb">Spector Seb</a>
+            </p>
+            <p>
+                Core contributors: <a href="https://twitter.com/deltakosh">David Catuhe</a> - <a href="https://twitter.com/davrous">David Rousset</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41767310-1', 'babylonjs.com');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
