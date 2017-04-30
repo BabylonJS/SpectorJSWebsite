@@ -230,7 +230,8 @@ var SPECTOR;
                 }
                 return "1";
             }
-            return SPECTOR.WebGlConstantsByValue[value].name;
+            var webglConstant = SPECTOR.WebGlConstantsByValue[value];
+            return webglConstant ? webglConstant.name : value + "";
         };
         return WebGlConstants;
     }());
