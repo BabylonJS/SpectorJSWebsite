@@ -28,7 +28,7 @@
 </head>
 <body>
     <canvas id="renderCanvas" touch-action="none"></canvas>
-    <div id="fps"></div>
+    <div id="fps" style="display:none;visibility:hidden;"></div>
     <div id="stats"></div>
     <div id="status"></div>
     <div id="controlPanel" style="display:none;visibility:hidden;">
@@ -43,7 +43,7 @@
         <div class="tag">Control panel</div>
         <div class="tag" id="clickableTag"></div>
     </div>
-    <div id="cameraPanel">
+    <div id="cameraPanel" style="display:none;visibility:hidden;">
         <div id="cameraControlsZone">
             Active camera:<br>
             <select id="camerasList"></select>
@@ -86,7 +86,7 @@
 
         .helpText {
             position: absolute;
-            z-index: 100000;
+            z-index: 20;
             top: 50px;
             left: 50%;
             margin-left: -200px;
