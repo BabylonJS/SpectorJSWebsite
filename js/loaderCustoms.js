@@ -65,15 +65,6 @@ var loadCustomScene = function (demoConstructor, then) {
 
             var spector = new SPECTOR.Spector();
             spector.displayUI();
-            spector.captureMenu.onCaptureRequested.add((info) => {
-                var help = document.querySelector(".helpText");
-                help.innerText = "Capturing, be patient (this can take up to 3 minutes)...";
-            }, this);
-            spector.onCapture.add(function () {
-                var help = document.querySelector(".helpText");
-                help.style.visibility = "hidden";
-                help.style.display = "none";
-            });
         });
     }, 15);
 
