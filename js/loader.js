@@ -26,6 +26,8 @@ var sceneChecked;
 var sceneLocation = "../../../Scenes/";
 
 // Babylon
+var spector = new SPECTOR.Spector();
+spector.spyCanvases();
 var engine = new BABYLON.Engine(canvas, true);
 var scene;
 
@@ -432,7 +434,6 @@ if (!BABYLON.Engine.isSupported()) {
             camerasList.appendChild(option);
         }
 
-        var spector = new SPECTOR.Spector();
         spector.displayUI();
     });
 };
