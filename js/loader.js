@@ -392,7 +392,7 @@ if (!BABYLON.Engine.isSupported()) {
             sceneLocation = "http://yoda.blob.core.windows.net/wwwbabylonjs/Scenes/";
         }
         else {
-            sceneLocation = "http://cdn.babylonjs.com/wwwbabylonjs/Scenes/";
+            sceneLocation = "//www.babylonjs.com/Scenes/";
         }
     }
 
