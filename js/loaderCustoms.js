@@ -26,8 +26,6 @@ var sceneChecked;
 var sceneLocation = "../../Scenes/";
 
 // Babylon
-
-
 var spector = new SPECTOR.Spector();
 spector.spyCanvases();
 var engine = new BABYLON.Engine(canvas, true);
