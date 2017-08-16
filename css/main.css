@@ -784,4 +784,9 @@ main .about + hr.margin {
   }
 }
 
+.netlifyLogo {
+  width: 30px;
+  height: 20px;
+  transform: translateY(5px); }
+
 /*# sourceMappingURL=main.css.map */
