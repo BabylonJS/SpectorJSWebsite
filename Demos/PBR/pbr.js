@@ -8,7 +8,7 @@
     new BABYLON.PointLight("point", new BABYLON.Vector3(0, 40, 0), scene);
 
     // Environment Texture
-    var hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData("//www.babylonjs.com/Assets/environment.dds", scene);
+    var hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData("environment.dds", scene);
 
     scene.imageProcessingConfiguration.exposure = 0.6;
     scene.imageProcessingConfiguration.contrast = 1.6;
